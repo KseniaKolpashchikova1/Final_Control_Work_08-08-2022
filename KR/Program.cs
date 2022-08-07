@@ -18,3 +18,13 @@ void SearchElements (string [] FirstArray, string [] SecondArray)
     }
    }
 }
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Write($"{array[i]} ");
+    }
+    WriteLine();
+}
+

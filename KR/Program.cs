@@ -28,3 +28,6 @@ void PrintArray(string[] array)
     WriteLine();
 }
 
+SearchElements(FirstArray, SecondArray);
+PrintArray (SecondArray);
+
